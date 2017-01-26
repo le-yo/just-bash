@@ -1,5 +1,8 @@
 #!/bin/sh
-cp $1 $2
-# Let's verify the copy worked
-echo Details for $2
-ls -lh $2
+
+echo Hello, who am I talking to?
+read varname
+echo It\'s nice to meet you $varname
+echo How can I help you?
+read varname2
+echo Sorry I don\'t have an answer for that
